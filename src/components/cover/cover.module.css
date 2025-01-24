@@ -1,0 +1,93 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../assets/images/cover.png");
+  background-position: center bottom; /* moves the image to the top left corner */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #E8E8E8;
+  background-size: 80%; /* makes the image 80% of its original size */
+  flex: 12;
+
+  width: 100vw;
+}
+.title {
+  font-family: "Rubik Puddles";
+  color: #b44343;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 400;
+}
+
+.titleContainer {
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.phrase {
+  font-family: "Rubik Mono One";
+  color: #b44343;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.about {
+  font-family: "Sometype Mono";
+  color: #1e1e1e;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 400;
+  width: 20%;
+}
+
+.box {
+  position: absolute;
+  width: 12rem;
+  height: auto;
+  top: 66vh;
+  left: 29vw;
+}
+
+.building {
+  position: absolute;
+  width: 16rem;
+  height: auto;
+  top: 72vh;
+  left: 58vw;
+}
+
+.dino {
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  top: 36vh;
+  left: 56vw;
+}
+
+.iPhone {
+  position: absolute;
+  width: 9rem;
+  height: auto;
+  top: 42vh;
+  left: 32vw;
+}
+
+.soul {
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  left: 61vw;
+  top: 57vh;
+}
